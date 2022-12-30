@@ -1,0 +1,36 @@
+
+State Machine - |Top_Entity|UART_TX_Test:b2v_inst14|state_r
+Name state_r.stop state_r.data state_r.start state_r.idle 
+state_r.idle 0 0 0 0 
+state_r.start 0 0 1 1 
+state_r.data 0 1 0 1 
+state_r.stop 1 0 0 1 
+
+State Machine - |Top_Entity|Send_FIFO_TX:b2v_inst11|state
+Name state.digit9 state.digit8 state.digit7 state.digit6 state.digit5 state.digit4 state.digit3 state.digit2 state.digit1 
+state.digit1 0 0 0 0 0 0 0 0 0 
+state.digit2 0 0 0 0 0 0 0 1 1 
+state.digit3 0 0 0 0 0 0 1 0 1 
+state.digit4 0 0 0 0 0 1 0 0 1 
+state.digit5 0 0 0 0 1 0 0 0 1 
+state.digit6 0 0 0 1 0 0 0 0 1 
+state.digit7 0 0 1 0 0 0 0 0 1 
+state.digit8 0 1 0 0 0 0 0 0 1 
+state.digit9 1 0 0 0 0 0 0 0 1 
+
+State Machine - |Top_Entity|LCD16x2_Display:b2v_inst5|lcd_state
+Name lcd_state.lcd_delay lcd_state.lcd_data_l1 lcd_state.lcd_add_11 lcd_state.lcd_data_l0 lcd_state.lcd_add_l0 lcd_state.initial 
+lcd_state.initial 0 0 0 0 0 0 
+lcd_state.lcd_add_l0 0 0 0 0 1 1 
+lcd_state.lcd_data_l0 0 0 0 1 0 1 
+lcd_state.lcd_add_11 0 0 1 0 0 1 
+lcd_state.lcd_data_l1 0 1 0 0 0 1 
+lcd_state.lcd_delay 1 0 0 0 0 1 
+
+State Machine - |Top_Entity|DHT11_Data:b2v_inst|state
+Name state.check state.delay state.read_data state.get_data state.init 
+state.init 0 0 0 0 0 
+state.get_data 0 0 0 1 1 
+state.read_data 0 0 1 0 1 
+state.delay 0 1 0 0 1 
+state.check 1 0 0 0 1 
