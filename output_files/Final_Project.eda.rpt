@@ -1,5 +1,5 @@
 EDA Netlist Writer report for Final_Project
-Fri Dec 30 17:03:22 2022
+Sat Dec 31 12:41:03 2022
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Dec 30 17:03:22 2022 ;
+; EDA Netlist Writer Status ; Successful - Sat Dec 31 12:41:03 2022 ;
 ; Revision Name             ; Final_Project                         ;
 ; Top-level Entity Name     ; Top_Entity                            ;
 ; Family                    ; Cyclone IV E                          ;
@@ -66,20 +66,20 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                         ;
-+------------------------------------------------------------------------------------+
-; Generated Files                                                                    ;
-+------------------------------------------------------------------------------------+
-; E:/FPGA/Final_Project/simulation/modelsim/Final_Project_8_1200mv_85c_slow.vho      ;
-; E:/FPGA/Final_Project/simulation/modelsim/Final_Project_8_1200mv_0c_slow.vho       ;
-; E:/FPGA/Final_Project/simulation/modelsim/Final_Project_min_1200mv_0c_fast.vho     ;
-; E:/FPGA/Final_Project/simulation/modelsim/Final_Project.vho                        ;
-; E:/FPGA/Final_Project/simulation/modelsim/Final_Project_8_1200mv_85c_vhd_slow.sdo  ;
-; E:/FPGA/Final_Project/simulation/modelsim/Final_Project_8_1200mv_0c_vhd_slow.sdo   ;
-; E:/FPGA/Final_Project/simulation/modelsim/Final_Project_min_1200mv_0c_vhd_fast.sdo ;
-; E:/FPGA/Final_Project/simulation/modelsim/Final_Project_vhd.sdo                    ;
-+------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                 ;
++--------------------------------------------------------------------------------------------+
+; Generated Files                                                                            ;
++--------------------------------------------------------------------------------------------+
+; C:/Project/FPGA/Final_Project/simulation/modelsim/Final_Project_8_1200mv_85c_slow.vho      ;
+; C:/Project/FPGA/Final_Project/simulation/modelsim/Final_Project_8_1200mv_0c_slow.vho       ;
+; C:/Project/FPGA/Final_Project/simulation/modelsim/Final_Project_min_1200mv_0c_fast.vho     ;
+; C:/Project/FPGA/Final_Project/simulation/modelsim/Final_Project.vho                        ;
+; C:/Project/FPGA/Final_Project/simulation/modelsim/Final_Project_8_1200mv_85c_vhd_slow.sdo  ;
+; C:/Project/FPGA/Final_Project/simulation/modelsim/Final_Project_8_1200mv_0c_vhd_slow.sdo   ;
+; C:/Project/FPGA/Final_Project/simulation/modelsim/Final_Project_min_1200mv_0c_vhd_fast.sdo ;
+; C:/Project/FPGA/Final_Project/simulation/modelsim/Final_Project_vhd.sdo                    ;
++--------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -88,20 +88,20 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Fri Dec 30 17:03:19 2022
+    Info: Processing started: Sat Dec 31 12:41:01 2022
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off Final_Project -c Final_Project
-Info (204019): Generated file Final_Project_8_1200mv_85c_slow.vho in folder "E:/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Final_Project_8_1200mv_0c_slow.vho in folder "E:/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Final_Project_min_1200mv_0c_fast.vho in folder "E:/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Final_Project.vho in folder "E:/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Final_Project_8_1200mv_85c_vhd_slow.sdo in folder "E:/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Final_Project_8_1200mv_0c_vhd_slow.sdo in folder "E:/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Final_Project_min_1200mv_0c_vhd_fast.sdo in folder "E:/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file Final_Project_vhd.sdo in folder "E:/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Final_Project_8_1200mv_85c_slow.vho in folder "C:/Project/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Final_Project_8_1200mv_0c_slow.vho in folder "C:/Project/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Final_Project_min_1200mv_0c_fast.vho in folder "C:/Project/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Final_Project.vho in folder "C:/Project/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Final_Project_8_1200mv_85c_vhd_slow.sdo in folder "C:/Project/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Final_Project_8_1200mv_0c_vhd_slow.sdo in folder "C:/Project/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Final_Project_min_1200mv_0c_vhd_fast.sdo in folder "C:/Project/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file Final_Project_vhd.sdo in folder "C:/Project/FPGA/Final_Project/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4570 megabytes
-    Info: Processing ended: Fri Dec 30 17:03:22 2022
-    Info: Elapsed time: 00:00:03
+    Info: Processing ended: Sat Dec 31 12:41:03 2022
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
 

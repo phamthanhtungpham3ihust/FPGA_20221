@@ -23,7 +23,7 @@ type data0 is array (0 to 15) of std_logic_vector(7 downto 0);
 type data1 is array (0 to 15) of std_logic_vector(7 downto 0);
 
 constant lcd_cmd : lcd_cmd_tb := (0 => x"00", 
-											 1 => x"3C", 
+											 1 => x"38", 
 											 2 => x"0C", 
 											 3 => x"01", 
 											 4 => x"02", 
@@ -103,7 +103,7 @@ begin
 											elsif cnt = 40 then
 												e_temp <= '0';
 											elsif cnt = 2300 then
-												if ptr = 19 then
+												if ptr = 15 then
 													cnt := 0;
 													lcd_state <= lcd_add_11;
 													ptr <= 0;
@@ -136,7 +136,7 @@ begin
 											elsif cnt = 40 then
 												e_temp <= '0';
 											elsif cnt = 2300 then
-												if ptr = 19 then
+												if ptr = 15 then
 													cnt := 0;
 													ptr <= 0;
 													lcd_state <= lcd_delay;

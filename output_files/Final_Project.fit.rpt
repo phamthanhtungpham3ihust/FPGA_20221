@@ -1,5 +1,5 @@
 Fitter report for Final_Project
-Fri Dec 30 17:03:07 2022
+Sat Dec 31 12:40:26 2022
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -68,7 +68,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Fitter Summary                                                                  ;
 +------------------------------------+--------------------------------------------+
-; Fitter Status                      ; Successful - Fri Dec 30 17:03:07 2022      ;
+; Fitter Status                      ; Successful - Sat Dec 31 12:40:26 2022      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; Final_Project                              ;
 ; Top-level Entity Name              ; Top_Entity                                 ;
@@ -155,12 +155,12 @@ applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.33        ;
+; Average used               ; 1.30        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;  11.1%      ;
+;     Processors 2-4         ;  10.0%      ;
 +----------------------------+-------------+
 
 
@@ -237,7 +237,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in E:/FPGA/Final_Project/output_files/Final_Project.pin.
+The pin-out file can be found in C:/Project/FPGA/Final_Project/output_files/Final_Project.pin.
 
 
 +--------------------------------------------------------------------+
@@ -2062,7 +2062,7 @@ Info (176235): Finished register packing
 Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "led3" is assigned to location or region, but does not exist in design
     Warning (15706): Node "led4" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -2071,10 +2071,10 @@ Info (170192): Fitter placement operations ending: elapsed time is 00:00:02
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 1% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 3% of the available device resources in the region that extends from location X11_Y12 to location X22_Y24
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 1.02 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 1.03 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -2085,17 +2085,17 @@ Warning (169177): 3 pins must meet Altera requirements for 3.3-, 3.0-, and 2.5-V
     Info (169178): Pin dht_bus uses I/O standard 3.3-V LVTTL at 28
     Info (169178): Pin clock uses I/O standard 3.3-V LVTTL at 23
     Info (169178): Pin reset uses I/O standard 3.3-V LVTTL at 25
-Info (144001): Generated suppressed messages file E:/FPGA/Final_Project/output_files/Final_Project.fit.smsg
+Info (144001): Generated suppressed messages file C:/Project/FPGA/Final_Project/output_files/Final_Project.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 5377 megabytes
-    Info: Processing ended: Fri Dec 30 17:03:08 2022
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:12
+    Info: Peak virtual memory: 5355 megabytes
+    Info: Processing ended: Sat Dec 31 12:40:27 2022
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:13
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in E:/FPGA/Final_Project/output_files/Final_Project.fit.smsg.
+The suppressed messages can be found in C:/Project/FPGA/Final_Project/output_files/Final_Project.fit.smsg.
 
 

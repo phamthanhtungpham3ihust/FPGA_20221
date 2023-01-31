@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus II 64-Bit"
 -- VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
--- DATE "12/30/2022 17:03:20"
+-- DATE "12/31/2022 12:41:01"
 
 -- 
 -- Device: Altera EP4CE6E22C8 Package TQFP144
@@ -1343,6 +1343,9 @@ SIGNAL \b2v_inst14|Selector10~9_combout\ : std_logic;
 SIGNAL \b2v_inst14|b_r[5]~0_combout\ : std_logic;
 SIGNAL \b2v_inst14|Selector0~0_combout\ : std_logic;
 SIGNAL \b2v_inst14|tx_r~q\ : std_logic;
+SIGNAL \b2v_inst14|s_r\ : std_logic_vector(3 DOWNTO 0);
+SIGNAL \b2v_inst14|n_r\ : std_logic_vector(2 DOWNTO 0);
+SIGNAL \b2v_inst14|b_r\ : std_logic_vector(7 DOWNTO 0);
 SIGNAL \b2v_inst|tmp\ : std_logic_vector(39 DOWNTO 0);
 SIGNAL \b2v_inst|rd_stp\ : std_logic_vector(1 DOWNTO 0);
 SIGNAL \b2v_inst|ptr\ : std_logic_vector(5 DOWNTO 0);
@@ -1358,21 +1361,18 @@ SIGNAL \b2v_inst|dht_humi_bh_tmp\ : std_logic_vector(7 DOWNTO 0);
 SIGNAL \b2v_inst|cnt\ : std_logic_vector(31 DOWNTO 0);
 SIGNAL \b2v_inst|check_sum_tmp\ : std_logic_vector(7 DOWNTO 0);
 SIGNAL \b2v_inst5|lcd_data_temp\ : std_logic_vector(7 DOWNTO 0);
-SIGNAL \b2v_inst5|cmd_ptr\ : std_logic_vector(2 DOWNTO 0);
 SIGNAL \b2v_inst12|reg_cnt_out\ : std_logic_vector(31 DOWNTO 0);
-SIGNAL \b2v_inst10|r_r\ : std_logic_vector(8 DOWNTO 0);
 SIGNAL \b2v_inst5|cnt\ : std_logic_vector(31 DOWNTO 0);
+SIGNAL \b2v_inst10|r_r\ : std_logic_vector(8 DOWNTO 0);
 SIGNAL \b2v_inst5|ptr\ : std_logic_vector(31 DOWNTO 0);
-SIGNAL \b2v_inst11|uart_tx_data\ : std_logic_vector(7 DOWNTO 0);
-SIGNAL \b2v_inst13|wr_ptr\ : std_logic_vector(3 DOWNTO 0);
 SIGNAL \b2v_inst13|rd_ptr\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \b2v_inst14|s_r\ : std_logic_vector(3 DOWNTO 0);
-SIGNAL \b2v_inst14|n_r\ : std_logic_vector(2 DOWNTO 0);
-SIGNAL \b2v_inst14|b_r\ : std_logic_vector(7 DOWNTO 0);
-SIGNAL \b2v_inst14|ALT_INV_tx_r~q\ : std_logic;
+SIGNAL \b2v_inst11|uart_tx_data\ : std_logic_vector(7 DOWNTO 0);
+SIGNAL \b2v_inst5|cmd_ptr\ : std_logic_vector(2 DOWNTO 0);
+SIGNAL \b2v_inst13|wr_ptr\ : std_logic_vector(3 DOWNTO 0);
 SIGNAL \ALT_INV_clock~inputclkctrl_outclk\ : std_logic;
 SIGNAL \b2v_inst13|ALT_INV_full_tmp~q\ : std_logic;
 SIGNAL \b2v_inst|ALT_INV_dht_en~q\ : std_logic;
+SIGNAL \b2v_inst14|ALT_INV_tx_r~q\ : std_logic;
 
 BEGIN
 
@@ -1393,10 +1393,10 @@ ww_devpor <= devpor;
 \reset~inputclkctrl_INCLK_bus\ <= (vcc & vcc & vcc & \reset~input_o\);
 
 \clock~inputclkctrl_INCLK_bus\ <= (vcc & vcc & vcc & \clock~input_o\);
-\b2v_inst14|ALT_INV_tx_r~q\ <= NOT \b2v_inst14|tx_r~q\;
 \ALT_INV_clock~inputclkctrl_outclk\ <= NOT \clock~inputclkctrl_outclk\;
 \b2v_inst13|ALT_INV_full_tmp~q\ <= NOT \b2v_inst13|full_tmp~q\;
 \b2v_inst|ALT_INV_dht_en~q\ <= NOT \b2v_inst|dht_en~q\;
+\b2v_inst14|ALT_INV_tx_r~q\ <= NOT \b2v_inst14|tx_r~q\;
 
 -- Location: IOOBUF_X0_Y9_N9
 \dht_bus~output\ : cycloneive_io_obuf
